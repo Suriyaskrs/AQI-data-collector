@@ -2,7 +2,7 @@ name: Collect AQI Data
 
 on:
   schedule:
-    - cron: '0 */1 * * *'  # Runs every hour
+    #- cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:  # Allows manual trigger
 
 permissions:
